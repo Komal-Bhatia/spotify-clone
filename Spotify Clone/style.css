@@ -1,0 +1,272 @@
+.main {
+    height:100%;
+    margin-bottom: 20px;
+    /* display: flex; */
+}
+.nav {
+    height: 80px;
+    position: sticky!important;
+    top: 0px;
+    z-index:1;
+    background-color: rgb(31 30 30);
+}
+
+.nav ul li a {
+    display: inline;
+    color: white;
+    text-align: right;
+    text-decoration: none;
+}
+
+.logo {
+    width: 20%;
+}
+.logo a{
+    font-size: 36px;
+    padding: 10px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.arrows {
+    /* margin-left: 40px; */
+    padding-right: 20px;
+    font-size: 24px;
+    /* margin-top: 20px; */
+    width: 40%;
+    float: left;
+}
+.links li a {
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+#navbarSupportedContent ul {
+    border-right: 2px solid gray;
+}
+#navbarSupportedContent button {
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 8px 20px 8px 20px;
+
+}
+.nav-link, .signup {
+   margin-left:20px;
+   font-size: 16px !important;
+}
+.signup:hover {
+    color:white;
+    font-weight: bold;
+}
+.signup {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #959292;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.nav-links button {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 41px;
+    text-align: center;
+    padding-right: 28px;
+    padding-left: 28px;
+    margin-top: 5px;
+}
+.nav-links button:hover {
+    font-weight: 700;
+}
+.vertical-menu {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(27, 26, 26);
+    display: inline-flex;
+    /* position: fixed;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    z-index:1; */
+}
+
+.vertical-menu a {
+    padding: 10px;
+    display:block;
+    text-decoration: none;
+    color:grey;
+    font-size: 20px;
+}
+
+.vertical-menu a i{
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.vertical-menu .active{
+   color:white;
+   font-weight: bold;
+}
+
+.vertical-menu a:hover{
+    color:white;
+    font-weight: 24px;
+ }
+ #links {
+    display:flex;
+ }
+ #links a {
+    font-size: 10px;
+    padding: 10px;
+ }
+ .lan-button {
+    margin-left: 25px;
+ }
+ .lan-button button {
+    border-radius: 30px;
+    background-color: black;
+    color:white;
+    padding: 10px 30px;
+    border: 1px solid whitesmoke;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 50px;
+ }
+
+ #globe {
+    padding-right: 5px;
+    font-size: large;
+ }
+.vertical-menu ul {
+    list-style-type: none;
+
+}
+ .footer {
+    background: linear-gradient(0.25turn, #d862df, #a675e1, #4679d8);
+    height:auto;
+    width:100%;
+    padding-bottom:5px;
+    padding-left: 15px;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    padding-top: 5px;
+    /* position: fixed;
+    bottom: 0px; */
+  
+ }
+ .footer p span{
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+ .footer p{
+    font-weight: bold;
+    /* width:80%; */
+ }
+ .footer button {
+    float: right;
+    border-radius: 30px;
+    border: 1px solid whitesmoke;
+    margin: 8px 8px;
+    font-weight: 600;
+    padding: 8px 22px;
+}
+.footer button:hover {
+    font-weight: bold;
+}
+.musics {
+    display: inline-flex;
+    width: 79%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.cards {
+    padding:5px;
+}
+
+.cards img {
+    width: 140px;
+    height: 144px;
+    position: relative;
+}
+
+.focus-music {
+    margin-left: 20px;
+}
+
+.focus-music-cards {
+    margin-left: 40px !important;
+}
+
+.card:hover {
+    background-color: rgb(59, 57, 57)!important;
+    cursor: pointer;
+    border:5px solid rgb(59, 57, 57);
+}
+
+.card i{
+    top: 40%;
+    left: 80%;
+    position: absolute;
+}
+
+.play{
+    border-radius: 50px;
+}
+
+.footer-one {
+    height:300px;
+}
+
+.div1 h3, .div2 h3, .div3 h3 {
+    font-size: 16px;
+}
+
+.div1 ul li a, .div2 ul li a, .div3 ul li a {
+    color: rgb(157, 156, 156);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.div4 ul li {
+    display: inline;
+    float:right;
+   color:white;
+    font-size: 20px !important;
+    padding-right:25px;
+    list-style-type: none;
+    text-decoration: none;
+   
+}
+.div4 ul li i{
+    background-color: #474646;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.div1, .div2, .div3 {
+    width:20% !important;
+}
+
+.div4 {
+    width: 40% !important;
+}
+
+.copywrite {
+    width:100%;
+    height:200px;
+    border-top: 4px soild grey!important;
+    padding-left: 14px;
+    color: rgb(157, 156, 156);
+}
+
+.div1 ul li a:hover, .div2 ul li a:hover, .div3 ul li a:hover{
+    color:white;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+body {
+    box-sizing: border-box;
+}
